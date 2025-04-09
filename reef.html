@@ -1,0 +1,213 @@
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <style>
+    .hexagon {
+      height: 250px; /* adjust to control the size  */
+      aspect-ratio: 1/cos(30deg);
+      clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+      background: #3B8686;
+      margin:auto;
+    }
+    .reef {
+      /*width: 100%;*/
+      /*height: 100%;*/
+      margin:auto;
+    }
+    .reef td {
+      width: 100px;
+      /*height: 25px;*/
+      /*border: 1px solid black;*/
+    }
+    .button {
+      background-color: #04AA6D;
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+    }
+    .button5 {border-radius: 50%;}
+  </style>
+</head>
+<body>
+  <div>
+    <table class="reef">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td rowspan="2">
+          <table style="margin-bottom:5px;">
+            <tr>
+              <td><button data-value="1BTL" class="button button5">1BTL</button></td>
+              <td><button data-value="1BTR" class="button button5">1BTR</button></td>
+            </tr>
+            <tr>
+              <td><button data-value="1BML" class="button button5">1BML</button></td>
+              <td><button data-value="1BMR" class="button button5">1BMR</button></td>
+            </tr>
+            <tr>
+              <td><button data-value="1BBL" class="button button5">1BBL</button></td>
+              <td><button data-value="1BBR" class="button button5">1BBR</button></td>
+            </tr>
+          </table>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td rowspan="2" valign="bottom">
+          <table>
+            <tr>
+              <td><button data-value="2BTL" class="button button5">6BTL</button></td>
+              <td><button data-value="2BTR" class="button button5">6BTR</button></td>
+            </tr>
+            <tr>
+              <td><button data-value="2BML" class="button button5">6BML</button></td>
+              <td><button data-value="2BMR" class="button button5">6BMR</button></td>
+            </tr>
+            <tr>
+              <td><button data-value="2BBL" class="button button5">6BBL</button></td>
+              <td><button data-value="2BBR" class="button button5">6BBR</button></td>
+            </tr>
+          </table>
+        </td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" valign="bottom">
+          <table>
+            <tr>
+              <td><button data-value="2BTL" class="button button5">2BTL</button></td>
+              <td><button data-value="2BTR" class="button button5">2BTR</button></td>
+            </tr>
+            <tr>
+              <td><button data-value="2BML" class="button button5">2BML</button></td>
+              <td><button data-value="2BMR" class="button button5">2BMR</button></td>
+            </tr>
+            <tr>
+              <td><button data-value="2BBL" class="button button5">2BBL</button></td>
+              <td><button data-value="2BBR" class="button button5">2BBR</button></td>
+            </tr>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr style="height:100px;">
+        <td></td>
+        <td colspan="3" rowspan="3">
+          <div class="hexagon"></div>
+        </td>
+        <td></td>
+      </tr>
+      <tr style="height:50px;">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="height:100px;">
+        <td></td>
+        <td rowspan="2" valign="top">
+          <table>
+            <tr>
+              <td><button data-value="5BTL" class="button button5">5BTL</button></td>
+              <td><button data-value="5BTR" class="button button5">5BTR</button></td>
+            </tr>
+            <tr>
+              <td><button data-value="5BML" class="button button5">5BML</button></td>
+              <td><button data-value="5BMR" class="button button5">5BMR</button></td>
+            </tr>
+            <tr>
+              <td><button data-value="5BBL" class="button button5">5BBL</button></td>
+              <td><button data-value="5BBR" class="button button5">5BBR</button></td>
+            </tr>
+          </table>
+        </td>
+        <td rowspan="2" valign="top">
+          <table>
+            <tr>
+              <td><button data-value="3BTL" class="button button5">3BTL</button></td>
+              <td><button data-value="3BTR" class="button button5">3BTR</button></td>
+            </tr>
+            <tr>
+              <td><button data-value="3BML" class="button button5">3BML</button></td>
+              <td><button data-value="3BMR" class="button button5">3BMR</button></td>
+            </tr>
+            <tr>
+              <td><button data-value="3BBL" class="button button5">3BBL</button></td>
+              <td><button data-value="3BBR" class="button button5">3BBR</button></td>
+            </tr>
+          </table>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td rowspan="2">
+          <table style="margin-top:5px;">
+            <tr>
+              <td><button data-value="4BTL" class="button button5">4BTL</button></td>
+              <td><button data-value="4BTR" class="button button5">4BTR</button></td>
+            </tr>
+            <tr>
+              <td><button data-value="4BML" class="button button5">4BML</button></td>
+              <td><button data-value="4BMR" class="button button5">4BMR</button></td>
+            </tr>
+            <tr>
+              <td><button data-value="4BBL" class="button button5">4BBL</button></td>
+              <td><button data-value="4BBR" class="button button5">4BBR</button></td>
+            </tr>
+          </table>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+
+<script>
+  let buttonList = document.getElementsByClassName('button');
+  for (let button of buttonList) {
+    button.addEventListener('click', function() {
+      // console.log(this.dataset.value);
+      // alert(this.dataset.value);
+
+      const formData = new FormData();
+      formData.append("objective", this.dataset.value)
+      fetch(`http://127.0.0.1:5000/send-objective`, {
+        method: 'POST',
+        body: formData
+      }).then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was bad')
+            }
+            console.log(response)
+        }).catch(e => {
+        console.error(e)
+              })
+
+      // Add a text field
+      // formData.append("parameter_name", this.dataset.value);
+
+      // fetch("https://example.org/post", {
+      //   method: "POST",
+      //   // Set the FormData instance as the request body
+      //   body: formData,
+      // })
+      // .then(response => {
+      //   console.log(response.json());
+      // })
+      // .catch(e => {
+      //   console.error(e);
+      // })
+    });
+  }
+</script>
+</body>
