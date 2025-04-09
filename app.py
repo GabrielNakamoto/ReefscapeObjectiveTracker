@@ -5,8 +5,10 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 # CORS(app)
 
+real_robot = False
+server_ip = '10.41.52.2' if real_robot else '127.0.0.1'
 
-NetworkTables.initialize(server='10.41.52.2')
+NetworkTables.initialize(server=server_ip)
 table = NetworkTables.getTable('SmartDashboard')
 # 'Application Programming Interface'
 # API: let someone else access your program, one that usually runs on a server,
